@@ -7,9 +7,9 @@ class televisi:
     self.__volume = None
 
   def turontelevisi(self):
-    print('televisi ON',  self.remote,)
+    print('televisi ON',  self.remote, ':', self.merk)
   def turnofftelevisi(self):
-    print('televisi OFF',self.remote)
+    print('televisi OFF',self.remote, ':', self.merk)
   def setvolume(self, num):
     #private
     self.__volume = num
@@ -43,7 +43,4 @@ TV2.turnofftelevisi()
 TV1.setvolume(100)
 TV2.gantichannel()
 print(TV1.getVolume())
-print(TV1.merk)
 
-
-   
